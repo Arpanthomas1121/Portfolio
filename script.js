@@ -33,13 +33,13 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Student", "Developer", "informal~lensman", "Emotion reader ", "Secuity advisor","Musicophile"],
+        strings: ["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Secuity advisor","a Musicophile"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Student", "Developer", "informal~lensman", "Emotion reader ", "Secuity advisor","Musicophile"],
+        strings:["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Secuity advisor","a Musicophile"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
