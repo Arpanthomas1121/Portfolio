@@ -580,6 +580,7 @@ footer span a:hover{
 
 /*##########  Responsive coding ################*/
 
+
 @-webkit-keyframes colorchange {
   0% {color: #4D1FF4;}
   20% {color: #ED139D;}
@@ -617,7 +618,13 @@ footer span a:hover{
   
 }
 @media (max-width: 400px) {
-  .gallery {
+    .home .tagline{
+        left: 6vw;
+        }
+    section .title::after{
+        font-size: 1.2rem;
+    }
+    .gallery {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   }
 }
@@ -646,10 +653,11 @@ footer span a:hover{
         margin-left: 0vw ;
         left: -100vw;
         top: -100vw;
-        background-image: url("photos/menu%20design%202.jpg");
-  background-repeat: no-repeat;
+        background-image: url("photos/background.png");
+        background-size: 120vw;
+  background-repeat: repeat-y;
   background-attachment: local;
-  background-size: cover;
+  background-size: local;
         padding-top: 80px;
         border-radius: 10px;
         text-align: center;
@@ -669,6 +677,7 @@ footer span a:hover{
     }
     .navbar.sticky .menu li a {
         top: 10px;
+        padding: 0;
         color: #ED651F;
         font-size: 30px;
         transition: all 0.3s ease-in-out;
@@ -730,7 +739,7 @@ footer span a:hover{
       font-size: 27px;
   }
   .home .tagline{
-    left: 10vw;
+    left: 6vw;
     font-family: "Stick No Bills";
     font-size: 0.9em;
     }
@@ -738,6 +747,15 @@ footer span a:hover{
   .skills .skills-content .left .text{
       font-size: 19px;
   }
+  .about .about-content .right .text{
+    font-size: 1.2rem;
+   }
+  .about .about-content .right p{
+    font-size: 1.2rem;
+  }
+  .about .about-content .right span{
+    font-size: 1.2rem;
+    }
 
   .scroll-up-btn{
       right: 15px;
@@ -749,3 +767,4 @@ footer span a:hover{
   }
 
 }
+
