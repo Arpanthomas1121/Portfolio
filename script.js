@@ -33,14 +33,14 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Secuity advisor","a Musicophile"],
-        typeSpeed: 100,
+        strings: ["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Security advisor","a Musicophile"],
+         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings:["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Secuity advisor","a Musicophile"],
-        typeSpeed: 100,
+        strings: ["a Student", "a Developer", "an informal~lensman", "an Emotion reader ", "a Security advisor","a Musicophile"],
+         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
@@ -111,9 +111,6 @@ anime.timeline({loop: true})
     delay: 1000
   });
   
-
-
-
   var gallery = document.querySelector('#gallery');
 var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
 var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
